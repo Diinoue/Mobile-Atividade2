@@ -1,10 +1,10 @@
-package br.ufpr.lexicards.banco
+package com.example.lexicards.banco
 
 import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
-import br.ufpr.lexicards.regras.RegrasNegocio
+import com.example.lexicards.regras.RegrasNegocio
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale

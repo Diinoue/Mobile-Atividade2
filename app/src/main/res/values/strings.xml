@@ -1,3 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Lexicards</string>
+
+    <!-- Titulos -->
+    <string name="titulo_flashcard">Flashcard</string>
+    <string name="titulo_estudar">Modo de estudo</string>
+
+    <!-- Tela principal -->
+    <string name="hint_busca">Buscar palavra ou tradução</string>
+    <string name="buscar">Buscar</string>
+    <string name="listar_todos">Listar todos</string>
+    <string name="estudar">Estudar</string>
+    <string name="novo_flashcard">Novo flashcard</string>
+    <string name="lista_vazia">Nenhum flashcard cadastrado.\nToque em \"Novo flashcard\" para começar.</string>
+    <string name="lista_vazia_filtro">Nenhum flashcard encontrado para este filtro.</string>
+    <string name="resumo">%1$d cartão(ões) · %2$d nova(s) · %3$d aprendendo · %4$d dominada(s)</string>
+    <string name="nada_para_estudar">Não há flashcards para estudar com os filtros atuais.</string>
+
+    <!-- Cadastro / edição -->
+    <string name="hint_palavra">Palavra no idioma estrangeiro</string>
+    <string name="hint_traducao">Tradução / significado</string>
+    <string name="hint_idioma">Idioma (ex.: Inglês, Espanhol)</string>
+    <string name="hint_frase">Frase de exemplo usando a palavra</string>
+    <string name="aviso_regra">Regra do app: só é possível salvar o flashcard depois de escrever uma frase completa (mínimo de 4 palavras, terminada em . ! ou ?) que realmente use a palavra cadastrada.</string>
+    <string name="salvar">Salvar</string>
+    <string name="excluir">Excluir</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="info_cartao">Status: %1$s · %2$d acerto(s) / %3$d erro(s) · criado em %4$s</string>
+
+    <!-- Mensagens -->
+    <string name="flashcard_adicionado">Flashcard adicionado</string>
+    <string name="flashcard_atualizado">Flashcard atualizado</string>
+    <string name="flashcard_excluido">Flashcard excluído</string>
+    <string name="flashcard_nao_encontrado">Flashcard não encontrado</string>
+    <string name="erro_palavra_vazia">Informe a palavra do flashcard.</string>
+    <string name="erro_traducao_vazia">Informe a tradução da palavra.</string>
+    <string name="erro_idioma_vazio">Informe o idioma do flashcard.</string>
+    <string name="erro_tamanho">Este campo deve ter no máximo %1$d caracteres.</string>
+    <string name="erro_duplicado">A palavra \"%1$s\" já está cadastrada em %2$s.</string>
+    <string name="confirmar_exclusao_titulo">Excluir flashcard</string>
+    <string name="confirmar_exclusao">Deseja realmente excluir o flashcard \"%1$s\"?</string>
+
+    <!-- Estudo -->
+    <string name="toque_para_revelar">Toque no cartão para ver o significado</string>
+    <string name="progresso">Cartão %1$d de %2$d</string>
+    <string name="acertei">Acertei</string>
+    <string name="errei">Errei</string>
+    <string name="encerrar_estudo">Encerrar estudo</string>
+    <string name="sessao_encerrada">Sessão encerrada: %1$d revisão(ões), %2$d acerto(s) e %3$d erro(s).</string>
+    <string name="sessao_sem_revisoes">Sessão encerrada sem revisões.</string>
 </resources>

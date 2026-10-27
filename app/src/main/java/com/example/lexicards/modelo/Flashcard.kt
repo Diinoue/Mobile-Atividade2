@@ -1,4 +1,4 @@
-package br.ufpr.lexicards.modelo
+package com.example.lexicards.modelo
 
 data class Flashcard(
     val id: Int = 0,

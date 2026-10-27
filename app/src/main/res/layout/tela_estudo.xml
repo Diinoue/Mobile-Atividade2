@@ -15,7 +15,6 @@
         android:textStyle="bold"
         android:textColor="@color/azul_escuro" />
 
-    <!-- O cartão inteiro é clicável: um toque revela o significado -->
     <LinearLayout
         android:id="@+id/cardFlashcard"
         android:layout_width="match_parent"
@@ -75,7 +74,6 @@
 
     </LinearLayout>
 
-    <!-- Só aparece depois que o cartão é revelado -->
     <LinearLayout
         android:id="@+id/painelResposta"
         android:layout_width="match_parent"

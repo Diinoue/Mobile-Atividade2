@@ -14,7 +14,6 @@
         android:textStyle="bold"
         android:textColor="@color/azul_escuro" />
 
-    <!-- FILTRO 2: busca por um item específico -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -38,7 +37,6 @@
             android:text="@string/buscar" />
     </LinearLayout>
 
-    <!-- FILTRO 3 (status) e FILTRO EXTRA (idioma) -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -58,7 +56,6 @@
             android:layout_weight="1" />
     </LinearLayout>
 
-    <!-- FILTRO 1: listar todos -->
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
