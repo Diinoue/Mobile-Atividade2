@@ -11,7 +11,7 @@ android {
     defaultConfig {
         applicationId = "com.example.lexicards"
         minSdk = 29
-        targetSdk = 37
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
